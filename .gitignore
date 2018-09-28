@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+ImageViewTouch/build
+Gpu-Image/build
+.idea
+app/build
+kefu-easeui/build
+ZLibrary/build

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rb_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_screen"
+        android:button="@null"
+        android:focusable="false"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp_4"
+        android:paddingTop="@dimen/dp_4"
+        android:text="商品"/>
+</LinearLayout>

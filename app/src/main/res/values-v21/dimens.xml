@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--封装的toolbar 里面距离上内边距的距离。-->
+    <dimen name="ContentPaddingTop">25dp</dimen>
+    <!-- toolbar 封装的高度-->
+    <dimen name="ToolbarHeight">75dp</dimen>
+</resources>

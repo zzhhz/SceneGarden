@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10">
+
+        <TextView
+            style="@style/designer_profile_pre"
+            android:text="用户名"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/designer_profile_las"
+            android:text="jack mak"/>
+
+        <TextView
+            style="@style/designer_profile_pre"
+            android:layout_marginTop="20dp"
+            android:text="住址"/>
+
+        <TextView
+            android:id="@+id/tv_address"
+            style="@style/designer_profile_las"
+            android:text="山东省 济南"/>
+
+        <TextView
+            style="@style/designer_profile_pre"
+            android:layout_marginTop="20dp"
+            android:text="联系方式"/>
+
+        <TextView
+            android:id="@+id/tv_good"
+            style="@style/designer_profile_las"
+            android:text=""/>
+
+        <TextView
+            style="@style/designer_profile_pre"
+            android:layout_marginTop="20dp"
+            android:text="个人介绍"/>
+
+        <TextView
+            android:id="@+id/tv_info"
+            style="@style/designer_profile_las"
+            android:text="做追号的设计"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

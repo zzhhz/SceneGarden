@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.zzh.sexual.secret"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        ndk {
+            //选择要添加的对应cpu类型的.so库
+            abiFilters 'armeabi-v7a','arm64-v8a',"x86", "armeabi"
+            //还可以添加 'armeabi', 'x86','arm64-v8a',"x86"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    /*sourceSets{
+        main{
+            jniLibs.srcDirs=['libs']
+        }
+    }*/
+    buildToolsVersion '27.0.1'
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    api 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    api project(':ZLibrary')
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.1.9'
+    implementation project(':Gpu-Image')
+    implementation project(':ImageViewTouch')
+    //环信客服SDK
+    //compile 'com.hyphenate:kefu-easeui-android:1.1.4'
+    compile 'com.android.support:multidex:1.0.3'
+    /*implementation files('libs/BaiduLBS_Android.jar')
+            implementation files('libs/HMSSdkBase_2.5.1.300.jar')
+            implementation files('libs/HMSSdkPush_2.5.1.300.jar')
+            implementation files('libs/MiPush_SDK_Client_2_2_19.jar')
+            implementation files('libs/hyphenatechat_3.3.9.jar')*/
+    implementation project(':kefu-easeui')
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    tools:context="com.miaopu.shop.ui.activity.personal.MyDesignerActivity">
+    <include
+        layout="@layout/include_toolbar"/>
+
+    <com.yyydjk.library.DropDownMenu
+        android:id="@+id/dropDownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ddmenuTextSize="14sp"
+        app:ddtextUnselectedColor="@color/text_gray"
+        app:ddtextSelectedColor="@color/homeBaseColor"
+        app:dddividerColor="#ddd"
+        app:ddunderlineColor="#ddd"
+        app:ddmenuMenuHeightPercent="0.5"
+        app:ddmaskColor="#88888888"
+        app:ddmenuUnselectedIcon="@mipmap/drop_down_unselected_icon"
+        app:ddmenuSelectedIcon="@mipmap/drop_down_unselected_icon"
+        app:ddmenuBackgroundColor="@color/white">
+
+    </com.yyydjk.library.DropDownMenu>
+    <com.github.jdsjlzx.recyclerview.LRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.github.jdsjlzx.recyclerview.LRecyclerView>
+</LinearLayout>

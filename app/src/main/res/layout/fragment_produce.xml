@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_zhiwupinming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:text="植物品种"
+            android:textColor="#444444"
+            android:textSize="@dimen/sp_16"/>
+
+        <TextView
+            android:id="@+id/tv_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:text="颜色"
+            android:textColor="#444444"
+            android:textSize="@dimen/sp_16"/>
+
+        <TextView
+            android:id="@+id/tv_shangjia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginTop="20dp"
+            android:text="上架周期"
+            android:textColor="#444444"
+            android:textSize="@dimen/sp_16"/>
+
+        <TextView
+            android:id="@+id/tv_huaqi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:text="花期"
+            android:textColor="#444444"
+            android:textSize="@dimen/sp_16"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginTop="20dp"
+            android:text="规格"
+            android:textColor="#444444"
+            android:textSize="@dimen/sp_16"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginTop="20dp"
+            android:text="详细描述"
+            android:textColor="#444444"
+            android:textSize="@dimen/sp_16"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+            <TextView
+                android:text="植物品名"
+                style="@style/product_canshu_left" />
+            <TextView
+                android:id="@+id/tv_zhiwupinming2"
+                android:text=""
+                style="@style/product_canshu_right" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+            <TextView
+                android:text="物种品名"
+                style="@style/product_canshu_left" />
+            <TextView
+                android:id="@+id/tv_wuzhongpinming"
+                android:text=""
+                style="@style/product_canshu_right" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+            <TextView
+                android:text="植物类别"
+                style="@style/product_canshu_left" />
+            <TextView
+                android:id="@+id/tv_zhiwuleibie"
+                android:text=""
+                style="@style/product_canshu_right" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+            <TextView
+                android:text="植物功能"
+                style="@style/product_canshu_left" />
+            <TextView
+                android:id="@+id/tv_zhiwugongneng"
+                android:text=""
+                style="@style/product_canshu_right" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+            <TextView
+                android:text="适应位置"
+                style="@style/product_canshu_left" />
+            <TextView
+                android:id="@+id/tv_shiyingweihzi"
+                android:text=""
+                style="@style/product_canshu_right" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+            <TextView
+                android:text="适应地域"
+                style="@style/product_canshu_left" />
+            <TextView
+                android:id="@+id/tv_shiyingdiyu"
+                android:text=""
+                style="@style/product_canshu_right" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+            <TextView
+                android:text="适应季节"
+                style="@style/product_canshu_left" />
+            <TextView
+                android:id="@+id/tv_shiyingjijie"
+                android:text=""
+                style="@style/product_canshu_right" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+            <TextView
+                android:text="移栽难度"
+                style="@style/product_canshu_left" />
+            <TextView
+                android:id="@+id/tv_yizainandu"
+                android:text=""
+                style="@style/product_canshu_right" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

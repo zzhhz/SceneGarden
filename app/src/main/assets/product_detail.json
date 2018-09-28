@@ -1,0 +1,32 @@
+{
+  "botanyCategory": "水生植物",
+  "botanyFunction": "植物功能2",
+  "botanyVariety": "风信子",
+  "categoryId": "001",
+  "categoryNamePtah": "花境植物/水生植物",
+  "color": "紫色",
+  "content": "<p><img src=\"http://p28t2n2ld.bkt.clouddn.com/888978848954270565a22dbff253422bb5c43dc8717e25a3.jpg\" alt=\"timg (8)\" style=\"width: auto;\"></p><p><br></p>",
+  "createTime": 1536311099000,
+  "defaultImage": "http://p28t2n2ld.bkt.clouddn.com/timg (16)b05dd71742af4f33beb6af8c975d2e1d.jpg",
+  "fitPosition": "植物位置1",
+  "fitRegion": "植物区域1",
+  "fitSeason": "夏,春",
+  "id": "421e43acf1054502aac1bb5cff405152",
+  "images": [
+    "http://p28t2n2ld.bkt.clouddn.com/timg (15)3d074979b16245c5869ae416058fc6ba.jpg",
+    "http://p28t2n2ld.bkt.clouddn.com/timg (14)0faa91eaa6bf4cd6b88897f01ce361ff.jpg",
+    "http://p28t2n2ld.bkt.clouddn.com/timg (12)d0079806f11d4300aa8e651a8113588b.jpg",
+    "http://p28t2n2ld.bkt.clouddn.com/timg (10)e8a5065fb7e8474bbc5335b6d15c8f2a.jpg"
+  ],
+  "isSelected": 0,
+  "marketable": "1",
+  "norms": "{\"株高\":\"50\",\"冠幅\":\"30\",\"冠高\":\"40\",\"根茎\":\"5\",\"盆径\":\"50\"}",
+  "num": 0,
+  "origin": "中国",
+  "price": 13.8,
+  "shelvesTime": "2018-09-17",
+  "store": 73,
+  "title": "风信子盆栽",
+  "updateTime": 1537845874456,
+  "version": 31
+}

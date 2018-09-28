@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- toolbar 封装的高度-->
+    <dimen name="ToolbarHeight">45dp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="ContentPaddingTop">0dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+</resources>

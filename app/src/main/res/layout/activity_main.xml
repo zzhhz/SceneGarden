@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="true"
+    android:orientation="vertical"
+    tools:context="com.miaopu.shop.MainActivity">
+
+    <com.miaopu.shop.ui.view.NoScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_home_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/MainRadioButton"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_main_home"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_product"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/selector_main_product"
+            android:text="商品" />
+
+        <RadioButton
+            android:id="@+id/rb_diy"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/selector_main_div"
+            android:text="DIY" />
+
+        <RadioButton
+            android:id="@+id/rb_shop_car"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/selector_main_shop"
+            android:text="购物车"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/MainRadioButton"
+            android:drawableTop="@drawable/selector_main_mine"
+            android:text="我的" />
+
+    </RadioGroup>
+
+</LinearLayout>

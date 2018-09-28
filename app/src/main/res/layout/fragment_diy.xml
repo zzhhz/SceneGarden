@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/shape_half_circle"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <com.zzh.horizontal.recyclerview.SpeedRecyclerView
+        android:id="@+id/rv_h_item_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:animateLayoutChanges="false"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_round_circle"
+        android:gravity="center"
+        android:text="上传背景"
+        android:textColor="@color/homeBaseColor"
+        android:textSize="16sp"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="BaseColor">#037BFF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="main_bg">#eeedf3</color>
+    <color name="line_1px">#E1E1E1</color>
+    <color name="homeBaseColor">#499eff</color>
+    <color name="t">#aa000000</color>
+    <color name="text_gray">#888</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="color_628ff8">#628ff8</color>
+    <color name="color_de5e3c">#de5e3c</color>
+    <color name="homecolor_de5e3c">#de5e3c</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="gray_999999">#999999</color>
+    <color name="color_D5D5D5">#D5D5D5</color>
+    <color name="color_f1f1f1">#f1f1f1</color>
+    <color name="color_canshu">#eeedf3</color>
+    <color name="text_blue">#4ab9e7</color>
+    <color name="gray_333333">#333333</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="txt_color_gray_3">#cbc4c6</color>
+    <color name="common_background">#f5f3f0</color>
+    <color name="light_grey">#ffbebebe</color>
+    <color name="crop_bg">#D5D5D5</color>
+    <color name="pink">#ff5d65</color>
+
+</resources>

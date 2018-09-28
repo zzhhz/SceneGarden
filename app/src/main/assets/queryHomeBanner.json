@@ -1,0 +1,47 @@
+[
+  {
+    "id": "e064398667c34fe29b3f03198699de37",
+    "delFlag": "0",
+    "createTime": 1519307416000,
+    "updateTime": 1520765443000,
+    "createBy": "u2897",
+    "updateBy": "u2897",
+    "state": "publish",
+    "ids": null,
+    "name": "banner3",
+    "jumpUrl": "http://www.baidu.com",
+    "bannerPath": "http://p28t2n2ld.bkt.clouddn.com/捕获28b33c2208f2c486d910b540a72720427.JPG",
+    "sort": 1,
+    "remark": "cesih"
+  },
+  {
+    "id": "0fd479befa264440b81eebb62cde9fe4",
+    "delFlag": "0",
+    "createTime": 1517110909000,
+    "updateTime": 1520764404000,
+    "createBy": "u2897",
+    "updateBy": "u2897",
+    "state": "publish",
+    "ids": null,
+    "name": "banner2",
+    "jumpUrl": "https://www.baidu.com",
+    "bannerPath": "http://p28t2n2ld.bkt.clouddn.com/捕获18cae5355b28d498a883d81a110ac5768.JPG",
+    "sort": 2,
+    "remark": "banner2"
+  },
+  {
+    "id": "adf787570ad44791ae2311eeee93cf11",
+    "delFlag": "0",
+    "createTime": 1520746645000,
+    "updateTime": 1520769652000,
+    "createBy": "u2897",
+    "updateBy": "u2897",
+    "state": "publish",
+    "ids": null,
+    "name": "banner1",
+    "jumpUrl": "http://www.baidu.com",
+    "bannerPath": "http://p28t2n2ld.bkt.clouddn.com/捕获373f8a594d35d49dba00e311d6ad5e1eb.JPG",
+    "sort": 2,
+    "remark": null
+  }
+]
