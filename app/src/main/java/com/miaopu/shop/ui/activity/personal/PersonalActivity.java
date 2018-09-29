@@ -13,8 +13,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hyphenate.chat.ChatClient;
-import com.hyphenate.helpdesk.callback.Callback;
 import com.luck.picture.lib.PictureSelector;
 import com.luck.picture.lib.config.PictureConfig;
 import com.luck.picture.lib.config.PictureMimeType;
@@ -262,20 +260,6 @@ public class PersonalActivity extends BaseSwipeActivity {
                 EventUtils.sendEventLogin();
                 ShopApplication.setCurrentUser(null);
                 SpUtils.logout(this);
-                ChatClient.getInstance().logout(true, new Callback(){
-                    @Override
-                    public void onSuccess() {
-                        l.d("环信登出成功");
-                    }
-
-                    @Override
-                    public void onError(int i, String s) {
-                        l.d("环信登出失败");
-                    }
-
-                    @Override
-                    public void onProgress(int i, String s) {}
-                });
                 PersonalActivity.this.finish();
                 break;
         }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">小桥流水</string>
+    <string name="app_name">流水花园</string>
     <string name="my">我的</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="s_obtain">秒后重新获取</string>

@@ -1,17 +1,13 @@
 package com.miaopu.shop;
 
 import android.app.Activity;
-import android.app.Application;
 import android.os.Environment;
 import android.support.multidex.MultiDexApplication;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 
-import com.hyphenate.chat.ChatClient;
-import com.hyphenate.helpdesk.easeui.UIProvider;
 import com.miaopu.shop.ui.model.User;
 import com.miaopu.shop.utils.AppConstants;
-import com.miaopu.shop.utils.Constants;
 import com.miaopu.shop.utils.SpUtils;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
@@ -70,24 +66,6 @@ public class ShopApplication extends MultiDexApplication {
         super.onCreate();
         mInstance = this;
         initImageLoader();
-        //CrashReport.initCrashReport(mInstance, Constants.TENCENT_BUGLY_ID, true);
-        initChat();
-    }
-
-    private void initChat() {
-        ChatClient.Options options = new ChatClient.Options();
-        options.setAppkey(Constants.KF_APP_KEY);//appkey获取地址：console.easemob.com
-        options.setTenantId(Constants.KF_TENANT);//tenantId获取地址：kefu.easemob.com
-
-        // Kefu SDK 初始化
-        if (!ChatClient.getInstance().init(this, options)){
-            return;
-        }
-        // Kefu EaseUI的初始化
-        UIProvider.getInstance().init(this);
-        //后面可以设置其他属性
-        // 设置为true后，将打印日志到logcat, 发布APP时应关闭该选项
-        ChatClient.getInstance().setDebugMode(true);
     }
 
     private void initImageLoader() {

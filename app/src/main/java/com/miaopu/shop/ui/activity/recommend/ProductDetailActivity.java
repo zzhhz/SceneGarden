@@ -10,8 +10,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.hyphenate.chat.ChatClient;
-import com.hyphenate.helpdesk.easeui.util.IntentBuilder;
 import com.miaopu.shop.ShopApplication;
 import com.miaopu.shop.ui.activity.LoginActivity;
 import com.miaopu.shop.ui.adapter.SingleImageAdapter;
@@ -21,7 +19,6 @@ import com.miaopu.shop.ui.base.BaseSwipeActivity;
 import com.miaopu.shop.ui.model.Product;
 import com.miaopu.shop.utils.Constants;
 import com.miaopu.shop.utils.GlideUtils;
-import com.miaopu.shop.utils.Utils;
 import com.miaopu.shop.utils.l;
 import com.miaopu.shop.web.BaseHandleConsumer;
 import com.miaopu.shop.web.RetrofitUtils;
@@ -174,16 +171,6 @@ public class ProductDetailActivity extends BaseSwipeActivity {
                 }
                 break;
             case R.id.fab:
-                if(ChatClient.getInstance().isLoggedInBefore()){
-                    //已经登录，可以直接进入会话界面
-                    Intent intent = new IntentBuilder(this)
-						.setServiceIMNumber(Constants.KF_ACCOUNT)
-                        .build();
-                    startActivity(intent);
-                }else{
-                    //未登录，需要登录后，再进入会话界面
-                    Utils.toastTips(this, "客服不在线");
-                }
                 break;
         }
     }
